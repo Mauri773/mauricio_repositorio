@@ -3,3 +3,5 @@ galletas
 leche 
 
 carne
+
+pan
