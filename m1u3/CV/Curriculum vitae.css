@@ -1,0 +1,32 @@
+h1 {
+  color: darkred;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+}
+h2 {
+  text-decoration: underline;
+}
+h3 {
+  text-decoration: underline;
+}
+.destacado {
+  color: blue;
+  text-decoration: underline;
+}
+ul {
+  color: purple;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+ol {
+  color: purple;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.parrafodestacado {
+  font-style: italic;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
