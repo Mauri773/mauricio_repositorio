@@ -30,3 +30,35 @@ ol {
 p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
+.texto {
+  width: 810px;
+
+  height: 400px;
+  background: rgb(195, 37, 34);
+  background: linear-gradient(
+    139deg,
+    rgb(216, 87, 84) 0%,
+    rgb(77, 185, 120) 100%
+  );
+  column-count: 2;
+  column-gap: 90px;
+}
+
+.caja {
+  width: 65%;
+  height: 800px;
+  background: rgb(195, 37, 34);
+  background: linear-gradient(
+    139deg,
+    rgba(195, 37, 34, 1) 0%,
+    rgba(45, 253, 128, 1) 100%
+  );
+  padding: 30px;
+  box-shadow: 10px 10px 40px black;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.fa-solid fa-object-group {
+  color: blue;
+}
