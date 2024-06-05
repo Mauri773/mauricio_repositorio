@@ -1,0 +1,38 @@
+#contenedor {
+  width: 25%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  height: 259px;
+  flex-direction: column;
+}
+
+#rojo1 {
+  position: absolute;
+  top: 8px;
+  right: 462px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+#azul2 {
+  position: absolute;
+  right: 462px;
+  top: 108px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+#verde3 {
+  position: absolute;
+  right: 462px;
+  top: 208px;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
