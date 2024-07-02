@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="Ejercicio01.css" />
+  </head>
+  <body>
+    <div id="cuadrado1" class="cuadrado"></div>
+    <div id="cuadrado2" class="cuadrado"></div>
+    <div id="cuadrado3" class="cuadrado"></div>
+
+    <script>
+      const cuadrado1 = document.getElementById("cuadrado1");
+      const cuadrado2 = document.getElementById("cuadrado2");
+      const cuadrado3 = document.getElementById("cuadrado3");
+
+      cuadrado1.addEventListener("click", function () {
+        document.body.style.backgroundColor = "red";
+      });
+
+      cuadrado2.addEventListener("click", function () {
+        document.body.style.backgroundColor = "green";
+      });
+
+      cuadrado3.addEventListener("click", function () {
+        document.body.style.backgroundColor = "blue";
+      });
+    </script>
+  </body>
+</html>

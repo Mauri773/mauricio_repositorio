@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2</title>
+  </head>
+  <body>
+    <textarea id="miTextarea" placeholder="Escribe algo aquí..."></textarea>
+    <div id="contador">0 caracteres</div>
+
+    <script>
+      const textarea = document.getElementById("miTextarea");
+      const contador = document.getElementById("contador");
+
+      textarea.addEventListener("input", function () {
+        contador.textContent = textarea.value.length + " caracteres";
+      });
+    </script>
+  </body>
+</html>
