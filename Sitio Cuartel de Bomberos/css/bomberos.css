@@ -239,3 +239,61 @@ h2 {
   display: block;
   max-width: 225px;
 }
+
+/* consejos */
+main {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+h3,
+h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  color: #8b0000;
+  margin-top: 20px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    padding: 40px;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* admision */
+
+h2 {
+  color: #8b0000;
+}
